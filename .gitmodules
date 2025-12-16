@@ -1,0 +1,3 @@
+[submodule "template-ethereum-contracts"]
+	path = template-ethereum-contracts
+	url = git@github.com:wighawag/template-ethereum-contracts.git
