@@ -4,6 +4,6 @@
   "packageManager": "pnpm@10.24.0",
   "scripts": {
     "compile": "pnpm --filter ./template-ethereum-contracts compile && pnpm --filter ./template-ethereum-contracts export:deploy-modules",
-    "dev": "npm --filter ./web dev"
+    "dev": "pnpm --filter ./web dev"
   }
 }
