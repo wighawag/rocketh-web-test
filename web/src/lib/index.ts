@@ -1,10 +1,9 @@
 import { Provider } from '@remix-project/remix-simulator';
 import { privateKeyToAccount } from 'viem/accounts';
 import DeployScript from 'template-ethereum-contracts/deploy/001_deploy_greetings_registry.js';
-import { config } from 'template-ethereum-contracts/rocketh/config.js';
+import { config, extensions } from 'template-ethereum-contracts/rocketh/config.js';
 
 import { setupEnvironment } from '@rocketh/web';
-import { extensions } from 'template-ethereum-contracts/rocketh/deploy.js';
 
 const account0 = privateKeyToAccount(
 	'0x503f38a9c967ed597e47fe25643985f032b072db8075426a92110f82df48dfcb'
