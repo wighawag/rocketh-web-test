@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "packageManager": "pnpm@10.24.0",
   "scripts": {
-    "compile": "pnpm --filter ./template-ethereum-contracts compile && pnpm --filter ./template-ethereum-contracts export:deploy-modules",
+    "compile": "pnpm --filter ./template-ethereum-contracts compile && pnpm --filter ./template-ethereum-contracts export:deploy-modules && cp template-ethereum-contracts/generated template-ethereum-contracts/dist/",
     "dev": "pnpm --filter ./web dev"
   }
 }
