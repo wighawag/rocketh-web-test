@@ -3,7 +3,7 @@ import { defineConfig } from 'vitest/config';
 import { playwright } from '@vitest/browser-playwright';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
-const polyfills = nodePolyfills({ include: ['buffer'] }); // was required by tlock-js ?
+const polyfills = nodePolyfills({ include: ['buffer'] }); // required by remix simulator ?
 
 export default defineConfig({
 	plugins: [polyfills, tailwindcss(), sveltekit()],

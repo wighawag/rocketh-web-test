@@ -1,6 +1,6 @@
 packages:
   - "web"
-  - "template-ethereum-contracts"
+  - "template-ethereum-contracts/contracts"
 
 onlyBuiltDependencies:
   - esbuild
